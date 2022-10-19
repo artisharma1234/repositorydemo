@@ -5,18 +5,21 @@ public class Employee {
 	String empId;
 	String empName;
 	String salary;
+	String age;
 	
 	public Employee() {
 		this.empId=null;
 		this.empName=null;
 		this.salary=null;
+		this.age=null;
 		
 	}
 	
-	public Employee(String empId,String empName,String salary) {
+	public Employee(String empId,String empName,String salary,String age) {
 		this.empId=empId;
 		this.empName=empName;
 		this.salary=salary;
+		this.age=age;
 	}
 	
 	public boolean validateID(String empId) {
